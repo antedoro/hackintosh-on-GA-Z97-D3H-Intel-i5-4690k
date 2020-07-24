@@ -1,6 +1,6 @@
 # hackintosh-on-GA-Z97-D3H-Intel-i5-4690k
 
-This repository is made to store EFI Folder of my Gigabyte ZA-97-DH3 with Itel i5 4690K hackintosh.
+This repository is made to store EFI folder of my Gigabyte ZA-97-DH3 with Itel i5 4690K hackintosh.
 I build on thi hardware configuration MacOSX fram High Sierra to Catalina.
 Graphic card works out of the box!
 All things works except ibernation.
