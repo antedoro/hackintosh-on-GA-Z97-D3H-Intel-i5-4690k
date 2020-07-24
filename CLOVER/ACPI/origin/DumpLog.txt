@@ -1,0 +1,119 @@
+20:989  19:128  Found BIOS RSDP at F0000
+20:989  0:000  Printing ACPI tables from RSDP F0000 ...
+20:989  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+20:989  0:000    (Xsdt: C64FB080, Rsdt: C64FB028)
+20:989  0:000    C64FB080: 'XSDT', 'A M I', Rev: 1, Len: 132
+20:989  0:000    C64FB028: 'RSDT', 'A M I', Rev: 1, Len: 84
+20:989  0:000    Tables in Xsdt: 12
+20:989  0:000    0. C650BCB8: 'FACP', 'A M I', Rev: 5, Len: 268
+20:989  0:000        (Dsdt: C64FB1A0, Facs: C6534080, XDsdt: C64FB1A0, XFacs: 0)
+20:989  0:000        C64FB1A0: 'DSDT', 'A M I', Rev: 2, Len: 68371
+20:990  0:000        C6534080: 'FACS', Ver: 2, Len: 64
+20:990  0:000    1. C650BDC8: 'APIC', 'A M I', Rev: 3, Len: 114
+20:990  0:000    2. C650BE40: 'FPDT', 'A M I', Rev: 1, Len: 68
+20:990  0:000    3. C650BE88: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+20:990  0:000    4. C650CA78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:990  0:000    5. C650CFB8: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+20:990  0:000    6. C650DB30: 'MCFG', 'A M I', Rev: 1, Len: 60
+20:990  0:000    7. C650DB70: 'HPET', 'A M I', Rev: 1, Len: 56
+20:990  0:000    8. C650DBA8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+20:990  0:000    9. C650DF18: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+20:990  0:000    10. C6513A78: 'BGRT', 'A M I', Rev: 0, Len: 56
+20:990  0:000    11. C6513AB0: 'DMAR', 'BDW', Rev: 1, Len: 184
+20:990  0:000    Tables in Rsdt: 12
+20:990  0:000    0. C64FB118: 'FACP', 'A M I', Rev: 2, Len: 132
+20:990  0:000        (Dsdt: C64FB1A0, Facs: C6534040)
+20:990  0:000        C64FB1A0: 'DSDT', 'A M I', Rev: 2, Len: 68371
+20:990  0:000        C6534040: 'FACS', Ver: 0, Len: 64
+20:990  0:000    1. C650BDC8: 'APIC', 'A M I', Rev: 3, Len: 114
+20:990  0:000    2. C650BE40: 'FPDT', 'A M I', Rev: 1, Len: 68
+20:990  0:000    3. C650BE88: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+20:990  0:000    4. C650CA78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:990  0:000    5. C650CFB8: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+20:990  0:000    6. C650DB30: 'MCFG', 'A M I', Rev: 1, Len: 60
+20:990  0:000    7. C650DB70: 'HPET', 'A M I', Rev: 1, Len: 56
+20:990  0:000    8. C650DBA8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+20:990  0:000    9. C650DF18: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+20:990  0:000    10. C6513A78: 'BGRT', 'A M I', Rev: 0, Len: 56
+20:990  0:000    11. C6513AB0: 'DMAR', 'BDW', Rev: 1, Len: 184
+20:990  0:000  Found UEFI Acpi 2.0 RSDP at C64FB000
+20:990  0:000  Saving ACPI tables from RSDP C64FB000 to EFI\CLOVER\ACPI\origin ...
+20:990  0:000   C64FB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+21:000  0:009    (Xsdt: C64FB080, Rsdt: C64FB028)
+21:000  0:000    C64FB080: 'XSDT', 'A M I', Rev: 1, Len: 132 -> XSDT.aml
+21:005  0:004    C64FB028: 'RSDT', 'A M I', Rev: 1, Len: 84 -> RSDT.aml
+21:009  0:004    Tables in Xsdt: 12
+21:009  0:000    0. C650BCB8: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+21:013  0:004        (Dsdt: C64FB1A0, Facs: C6534080, XDsdt: C64FB1A0, XFacs: 0)
+21:013  0:000        C64FB1A0: 'DSDT', 'A M I', Rev: 2, Len: 68371 -> DSDT.aml
+21:022  0:009        C6534080: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+21:027  0:004    1. C650BDC8: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+21:031  0:004    2. C650BE40: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+21:035  0:004    3. C650BE88: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054 -> SSDT-0-Ther_Rvp.aml
+21:040  0:004    4. C650CA78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-1-Cpu0Ist.aml
+21:045  0:005    5. C650CFB8: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932 -> SSDT-2-CpuSsdt.aml (Found hidden SSDT 4 pcs)
+21:049  0:004        * C3737598: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+21:049  0:000        * C635F618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D0 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+21:054  0:004        * C635FC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B0 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+21:058  0:004        * C635ED98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EC 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+21:062  0:004  
+21:062  0:000    6. C650DB30: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+21:066  0:004    7. C650DB70: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+21:070  0:004    8. C650DBA8: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-3-SataTabl.aml
+21:074  0:004    9. C650DF18: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390 -> SSDT-4-SaSsdt.aml
+21:079  0:004    10. C6513A78: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+21:084  0:004    11. C6513AB0: 'DMAR', 'BDW', Rev: 1, Len: 184 -> DMAR.aml
+21:089  0:005    Tables in Rsdt: 12
+21:089  0:000    0. C64FB118: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+21:093  0:004        (Dsdt: C64FB1A0, Facs: C6534040)
+21:093  0:000        C64FB1A0: 'DSDT', 'A M I', Rev: 2, Len: 68371
+21:094  0:000        C6534040: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+21:098  0:004    1. C650BDC8: 'APIC', 'A M I', Rev: 3, Len: 114
+21:098  0:000    2. C650BE40: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:098  0:000    3. C650BE88: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+21:098  0:000    4. C650CA78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:098  0:000    5. C650CFB8: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+21:098  0:000    6. C650DB30: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:098  0:000    7. C650DB70: 'HPET', 'A M I', Rev: 1, Len: 56
+21:098  0:000    8. C650DBA8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:098  0:000    9. C650DF18: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+21:098  0:000    10. C6513A78: 'BGRT', 'A M I', Rev: 0, Len: 56
+21:098  0:000    11. C6513AB0: 'DMAR', 'BDW', Rev: 1, Len: 184
+21:098  0:000  Found UEFI Acpi 1.0 RSDP at C64FB000
+21:098  0:000  Printing ACPI tables from RSDP C64FB000 ...
+21:098  0:000   C64FB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+21:098  0:000    (Xsdt: C64FB080, Rsdt: C64FB028)
+21:098  0:000    C64FB080: 'XSDT', 'A M I', Rev: 1, Len: 132
+21:098  0:000    C64FB028: 'RSDT', 'A M I', Rev: 1, Len: 84
+21:098  0:000    Tables in Xsdt: 12
+21:098  0:000    0. C650BCB8: 'FACP', 'A M I', Rev: 5, Len: 268
+21:098  0:000        (Dsdt: C64FB1A0, Facs: C6534080, XDsdt: C64FB1A0, XFacs: 0)
+21:098  0:000        C64FB1A0: 'DSDT', 'A M I', Rev: 2, Len: 68371
+21:099  0:000        C6534080: 'FACS', Ver: 2, Len: 64
+21:099  0:000    1. C650BDC8: 'APIC', 'A M I', Rev: 3, Len: 114
+21:099  0:000    2. C650BE40: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:099  0:000    3. C650BE88: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+21:099  0:000    4. C650CA78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:099  0:000    5. C650CFB8: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+21:099  0:000    6. C650DB30: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:099  0:000    7. C650DB70: 'HPET', 'A M I', Rev: 1, Len: 56
+21:099  0:000    8. C650DBA8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:099  0:000    9. C650DF18: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+21:099  0:000    10. C6513A78: 'BGRT', 'A M I', Rev: 0, Len: 56
+21:099  0:000    11. C6513AB0: 'DMAR', 'BDW', Rev: 1, Len: 184
+21:099  0:000    Tables in Rsdt: 12
+21:099  0:000    0. C64FB118: 'FACP', 'A M I', Rev: 2, Len: 132
+21:099  0:000        (Dsdt: C64FB1A0, Facs: C6534040)
+21:099  0:000        C64FB1A0: 'DSDT', 'A M I', Rev: 2, Len: 68371
+21:100  0:000        C6534040: 'FACS', Ver: 0, Len: 64
+21:100  0:000    1. C650BDC8: 'APIC', 'A M I', Rev: 3, Len: 114
+21:100  0:000    2. C650BE40: 'FPDT', 'A M I', Rev: 1, Len: 68
+21:100  0:000    3. C650BE88: 'SSDT', 'Ther_Rvp', Rev: 1, Len: 3054
+21:100  0:000    4. C650CA78: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+21:100  0:000    5. C650CFB8: 'SSDT', 'CpuSsdt', Rev: 1, Len: 2932
+21:100  0:000    6. C650DB30: 'MCFG', 'A M I', Rev: 1, Len: 60
+21:100  0:000    7. C650DB70: 'HPET', 'A M I', Rev: 1, Len: 56
+21:100  0:000    8. C650DBA8: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+21:100  0:000    9. C650DF18: 'SSDT', 'SaSsdt', Rev: 1, Len: 23390
+21:100  0:000    10. C6513A78: 'BGRT', 'A M I', Rev: 0, Len: 56
+21:100  0:000    11. C6513AB0: 'DMAR', 'BDW', Rev: 1, Len: 184
